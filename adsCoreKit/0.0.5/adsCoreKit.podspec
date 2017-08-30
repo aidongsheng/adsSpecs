@@ -18,4 +18,7 @@ s.source_files = 'adsCoreKit/Classes/**/*.{h,m}'
 s.dependency 'pop', '~> 1.0.10'
 s.dependency 'YYKit', '~> 1.0.9'
 s.dependency 'AFNetworking', '~> 3.1.0'
+s.dependency 'UITableView+FDTemplateLayoutCell', '~> 1.6'
+s.dependency 'MJRefresh', '~> 3.1.12'
+s.dependency 'Masonry', '~> 1.0.2'
 end
