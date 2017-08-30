@@ -1,20 +1,21 @@
 Pod::Spec.new do |s|
-  s.name             = 'adsCoreKit'
-  s.version          = '0.0.5'
-  s.summary          = 'ios 项目核心组件'
+s.name             = 'adsCoreKit'
+s.version          = '0.0.5'
+s.summary          = 'ios 项目核心组件'
 
-  s.description      = <<-DESC
+s.description      = <<-DESC
 TODO: 项目核心组件，包括网络、自定义UI控件、UI控件字体、颜色、日期处理器等等
-                       DESC
+DESC
 
-  s.homepage         = 'https://github.com/aidongsheng/adsCoreKit'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'aidongsheng' => 'coding_ai@qq.com' }
-  s.source           = { :git => 'https://github.com/aidongsheng/adsCoreKit.git', :tag => s.version }
+s.homepage         = 'https://github.com/aidongsheng/adsCoreKit.git'
+s.license          = { :type => 'MIT', :file => 'LICENSE' }
+s.author           = { 'aidongsheng' => 'coding_ai@qq.com' }
+s.source           = { :git => 'https://github.com/aidongsheng/adsCoreKit.git', :tag => s.version }
 
-  s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '8.0'
 
 s.source_files = 'adsCoreKit/Classes/**/*.{h,m}'
+
 s.dependency 'pop', '~> 1.0.10'
 s.dependency 'YYKit', '~> 1.0.9'
 s.dependency 'AFNetworking', '~> 3.1.0'
